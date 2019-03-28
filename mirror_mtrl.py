@@ -1,6 +1,3 @@
-import dialog
-import dialog.checkbox
-import dialog.dialog
 import FloatComparison
 import Locator
 import model
@@ -9,7 +6,6 @@ import Point3D
 import MemberBase
 import member
 import Transform3D
-from macrolib.helper import add_cc
 
 def PromptForMirrorPlane(locator):
     orig_point, pt_on_plane, new_point, plane_normal = Point3D.Point3D(), Point3D.Point3D(), Point3D.Point3D(), Point3D.Point3D()
